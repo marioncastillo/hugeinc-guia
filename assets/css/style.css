@@ -2,12 +2,34 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
-	color: #fff;
+	color:  #808080;
 	height: 80px;
 	z-index: 1000;
 	margin-top: 0;
 	position: fixed;
 	padding-top: 0px;
-	background: none;
+	background: #800080;
 	transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+}
+.logo,
+.menu{
+	position: absolute;
+	z-index: 2000;
+}
+
+.logo{
+	left: 0;
+	top: -4px;
+	width: 70px;
+	height: 74px;
+	padding: 0.4% 2%;
+	text-align: left;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url(../huge.png);
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	top: 0px;
+	left: 2000px;
 }
