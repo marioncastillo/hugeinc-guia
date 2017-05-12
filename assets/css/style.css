@@ -94,13 +94,7 @@ nav {
 	transform: rotate(-45deg);
 }
 
-.menu:before{
-	top: -8px;
-}
-.menu:after{
-	top: 8px;
-}
-/*
+
 nav .nav-background {
 	top: 0px;
 	opacity: 0;
@@ -148,7 +142,7 @@ nav ul li{
 
 
 nav ul li a{
-	color:white;
+	color: white;
 	width: 100%;
 	display: block;
 	padding: 8px 0 0;
@@ -162,6 +156,7 @@ nav ul li a:hover{
 nav.open ul {
 	top: 0;
 	opacity: 1;
+	margin-top: 0;
 	visibility: visible;
 	transform: perspective(600px) rotateX(0deg);
 }
@@ -171,7 +166,8 @@ nav.open ul li{
 	visibility: visible !important;
 }
 
-nav.header-in{
+nav.header-in
+{
 	background-color:rgba(217,40,130,0.9);
 }
 
@@ -185,6 +181,10 @@ nav.header-in{
 	background-color: #fff;
 }
 
-nav.solid #logo .logo {
+nav.open #logo .logo {
 	background-image: url(../huge.png);
+	background-size: 76px 76px;
+}
+.overflow-hidden{
+	overflow: hidden;
 }
